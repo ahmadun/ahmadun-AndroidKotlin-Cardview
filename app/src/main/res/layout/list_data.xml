@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+
+    <androidx.cardview.widget.CardView
+        android:id="@+id/list_data"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="10dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <ImageView
+                android:id="@+id/img_foto"
+                android:layout_width="match_parent"
+                android:layout_height="250dp"
+                android:scaleType="fitXY"
+                android:src="@drawable/a" />
+            <TextView
+                android:id="@+id/tx_nim"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="NIM"
+                android:layout_margin="10dp"
+                android:textStyle="bold"/>
+
+            <TextView
+                android:id="@+id/tx_nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Mahasiswa"
+                android:layout_margin="5dp"
+                android:layout_marginBottom="5dp"
+                android:textSize="25sp"/>
+
+
+        </LinearLayout>
+    </androidx.cardview.widget.CardView>
+
+</LinearLayout>
